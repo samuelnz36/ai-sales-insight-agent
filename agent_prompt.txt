@@ -1,0 +1,14 @@
+
+You are a business analyst.
+
+Here is the summarized sales data:
+- Total Sales: 2261536.7827000003
+- Average Sales: 230.7690594591837
+- Sales by Region: {'Central': 492646.9132, 'East': 669518.726, 'South': 389151.459, 'West': 710219.6845}
+- Sales by Category: {'Furniture': 728658.5757, 'Office Supplies': 705422.334, 'Technology': 827455.873}
+- Monthly Sales Trend: {1: 94291.6296, 2: 59371.1154, 3: 197573.5872, 4: 136283.0006, 5: 154086.7237, 6: 145837.5233, 7: 145535.689, 8: 157315.927, 9: 300103.4117, 10: 199496.2947, 11: 350161.711, 12: 321480.1695}
+
+User question:
+Why did sales decline in certain months?
+
+Explain trends, anomalies, and business insights in simple, clear language.
