@@ -75,6 +75,8 @@ No paid APIs are required.
 
 ## Project Structure
 
+
+
 ai-sales-insight-agent/
 │
 ├── data/
@@ -94,6 +96,8 @@ ai-sales-insight-agent/
 
 
 ---
+
+
 
 ## How It Works
 
