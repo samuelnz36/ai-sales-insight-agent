@@ -29,23 +29,20 @@ This separation mirrors real-world enterprise systems where data platforms and m
 
 ## Architecture
 
+```
 Sales Dataset (CSV)
-↓
+        ↓
 Databricks Notebook
-
-Data cleaning
-
-Aggregations
-
-Summary generation
-↓
+- Data cleaning
+- Aggregations
+- Summary generation
+        ↓
 Prompt Builder
-↓
+        ↓
 Local LLaMA 3 (via Ollama)
-↓
+        ↓
 Business Insights (Text)
-
-
+```
 
 ---
 
@@ -75,29 +72,24 @@ No paid APIs are required.
 
 ## Project Structure
 
-
-
+```
 ai-sales-insight-agent/
 │
 ├── data/
-│ └── sales_data.csv
+│   └── sales_data.csv
 │
 ├── databricks/
-│ └── sales_analysis.ipynb
+│   └── sales_analysis.ipynb
 │
 ├── llama/
-│ └── llama_client.py
+│   └── llama_client.py
 │
 ├── test_llama.py
 │
 └── README.md
-
-
-
+```
 
 ---
-
-
 
 ## How It Works
 
